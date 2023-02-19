@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "lint": "eslint src --ext .js,.jsx,.ts,.tsx",
+    "lint": "eslint",
     "check-types": "tsc --noEmit --project tsconfig.json",
     "prettier": "prettier --ignore-path .gitignore \"**/*.+(ts|tsx|js|jsx|json)\"",
     "format": "yarn prettier --write",
