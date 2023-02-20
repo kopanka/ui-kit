@@ -1,2 +1,3 @@
 export { ColorBox } from './ColorBox'
-export { ColorsList } from './ColorsList'
+export { NamedList } from './NamedList'
+export { ShadowBox } from './ShadowBox'

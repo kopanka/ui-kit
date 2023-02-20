@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const ColorsList: React.FC<React.PropsWithChildren<{ name: string }>> = props => {
+export const NamedList: React.FC<React.PropsWithChildren<{ name: string }>> = props => {
   return (
     <section>
       <h1>{props.name}</h1>
