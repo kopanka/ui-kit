@@ -125,4 +125,10 @@ export default [
       ...jest.configs.recommended.rules,
     },
   },
+  {
+    files: ['**/*.stories.jsx', '**/*.stories.tsx'],
+    rules: {
+      'import/group-exports': 'off',
+    },
+  },
 ]
