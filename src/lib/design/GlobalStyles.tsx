@@ -127,13 +127,9 @@ export const GlobalStyles = createGlobalStyle`
 		${variables.colorDark800}: #0E0E23;
 		${variables.colorDark900}: #08081D;
 
-		${variables.textLabelSmall}: 10px;
-		${variables.textLabelMedium}: 12px;
 		${variables.textBodySmall}: 9px;
-		${variables.textBodyMedium}: 14px;
-		${variables.textBodyLarge}: 16px;
+		${variables.textLabelSmall}: 10px;
 		${variables.textSubtitle}: 20px;
-		${variables.textLink}: 14px;
 		${variables.text100}: 12px;
 		${variables.text200}: 14px;
 		${variables.text300}: 16px;
