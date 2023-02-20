@@ -127,6 +127,23 @@ export const GlobalStyles = createGlobalStyle`
 		${variables.colorDark800}: #0E0E23;
 		${variables.colorDark900}: #08081D;
 
+		${variables.textLabelSmall}: 10px;
+		${variables.textLabelMedium}: 12px;
+		${variables.textBodySmall}: 9px;
+		${variables.textBodyMedium}: 14px;
+		${variables.textBodyLarge}: 16px;
+		${variables.textSubtitle}: 20px;
+		${variables.textLink}: 14px;
+		${variables.text100}: 12px;
+		${variables.text200}: 14px;
+		${variables.text300}: 16px;
+		${variables.text400}: 18px;
+		${variables.text500}: 24px;
+		${variables.text600}: 36px;
+		${variables.text700}: 40px;
+		${variables.text800}: 56px;
+		${variables.text900}: 72px;
+
 		${variables.shadowDark}: 0px 2px 5px rgba(0, 0, 0, 0.1);
 		${variables.shadowDark2x}: 0px 8px 10px rgba(0, 0, 0, 0.1);
 		${variables.shadowDark3x}: 0px 10px 15px rgba(0, 0, 0, 0.1);
