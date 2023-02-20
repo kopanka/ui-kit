@@ -152,4 +152,8 @@ export const variables = {
   text700: '--text-700',
   text800: '--text-800',
   text900: '--text-900',
+
+  fontRegular: '--font-regular',
+  fontMedium: '--font-medium',
+  fontBold: '--font-bold',
 }

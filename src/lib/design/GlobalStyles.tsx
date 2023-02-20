@@ -140,6 +140,10 @@ export const GlobalStyles = createGlobalStyle`
 		${variables.text800}: 56px;
 		${variables.text900}: 72px;
 
+		${variables.fontRegular}: 400;
+		${variables.fontMedium}: 500;
+		${variables.fontBold}: 700;
+
 		${variables.shadowDark}: 0px 2px 5px rgba(0, 0, 0, 0.1);
 		${variables.shadowDark2x}: 0px 8px 10px rgba(0, 0, 0, 0.1);
 		${variables.shadowDark3x}: 0px 10px 15px rgba(0, 0, 0, 0.1);

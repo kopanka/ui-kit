@@ -143,6 +143,11 @@ export const theme = {
     h800: `var(${variables.text800})`,
     h900: `var(${variables.text900})`,
   },
+  fontWeight: {
+    regular: `var(${variables.fontRegular})`,
+    medium: `var(${variables.fontMedium})`,
+    bold: `var(${variables.fontBold})`,
+  },
   shadows: {
     dark: `var(${variables.shadowDark})`,
     dark2x: `var(${variables.shadowDark2x})`,
