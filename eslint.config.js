@@ -77,6 +77,8 @@ export default [
       'react/jsx-curly-newline': ['error', { multiline: 'consistent', singleline: 'consistent' }],
       'react/prefer-stateless-function': ['error', { ignorePureComponents: true }],
       'react/jsx-max-depth': ['error', { max: 8 }],
+      'react/jsx-no-useless-fragment': 'error',
+      'react/no-unknown-property': ['error', { ignore: ['css'] }],
       'react/jsx-key': 'error',
       'react/prop-types': 'off',
       'react/jsx-sort-props': [
