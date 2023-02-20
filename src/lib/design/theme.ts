@@ -125,4 +125,20 @@ export const theme = {
   fonts: {
     primary: `var(${variables.fontPrimary})`,
   },
+  shadows: {
+    dark: `var(${variables.shadowDark})`,
+    dark2x: `var(${variables.shadowDark2x})`,
+    dark3x: `var(${variables.shadowDark3x})`,
+    dark4x: `var(${variables.shadowDark4x})`,
+    dark5x: `var(${variables.shadowDark5x})`,
+
+    color: `var(${variables.shadowColor})`,
+    color2x: `var(${variables.shadowColor2x})`,
+
+    skeomorphicDark: `var(${variables.skeomorphicDark})`,
+    skeomorphicInnerDark: `var(${variables.skeomorphicInnerDark})`,
+
+    skeomorphicLight: `var(${variables.skeomorphicLight})`,
+    skeomorphicInnerLight: `var(${variables.skeomorphicInnerLight})`,
+  },
 }

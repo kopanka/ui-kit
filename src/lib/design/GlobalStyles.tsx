@@ -126,6 +126,20 @@ export const GlobalStyles = createGlobalStyle`
 		${variables.colorDark700}: #16162B;
 		${variables.colorDark800}: #0E0E23;
 		${variables.colorDark900}: #08081D;
+
+		${variables.shadowDark}: 0px 2px 5px rgba(0, 0, 0, 0.1);
+		${variables.shadowDark2x}: 0px 8px 10px rgba(0, 0, 0, 0.1);
+		${variables.shadowDark3x}: 0px 10px 15px rgba(0, 0, 0, 0.1);
+		${variables.shadowDark4x}: 0px 16px 30px rgba(0, 0, 0, 0.3);
+		${variables.shadowDark5x}: 0px 30px 30px rgba(0, 0, 0, 0.3);
+
+		${variables.shadowColor}: 0px 2px 5px rgba(59, 21, 172, 0.5);
+		${variables.shadowColor2x}: 0px 30px 30px rgba(52, 19, 150, 0.3);
+
+		${variables.skeomorphicLight}: -2px -2px 5px rgba(255, 255, 255, 0.6), 2px 2px 5px rgba(0, 0, 0, 0.15);
+		${variables.skeomorphicInnerLight}: 0px 4px 6px rgba(0, 0, 0, 0.05), -2px -2px 6px rgba(255, 255, 255, 0.05), inset 2px 2px 4px rgba(0, 0, 0, 0.25), inset -2px -2px 4px rgba(255, 255, 255, 0.61);
+		${variables.skeomorphicDark}: -2px -2px 5px rgba(255, 255, 255, 0.1), 2px 2px 5px rgba(0, 0, 0, 0.19);
+		${variables.skeomorphicInnerDark}: 0px 4px 6px rgba(0, 0, 0, 0.05), -2px -2px 6px rgba(255, 255, 255, 0.05), inset 2px 2px 4px rgba(0, 0, 0, 0.25), inset -2px -2px 10px rgba(255, 255, 255, 0.1);
 	}
 
 	body,

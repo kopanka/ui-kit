@@ -121,4 +121,18 @@ export const variables = {
   colorDark900: '--color-dark900',
 
   fontPrimary: '--font-primary',
+
+  shadowDark: '--shadow-dark',
+  shadowDark2x: '--shadow-dark-2x',
+  shadowDark3x: '--shadow-dark-3x',
+  shadowDark4x: '--shadow-dark-4x',
+  shadowDark5x: '--shadow-dark-5x',
+
+  shadowColor: '--shadow-color',
+  shadowColor2x: '--shadow-color-2x',
+
+  skeomorphicLight: '--skeomorphic-light',
+  skeomorphicInnerLight: '--skeomorphic-inner-light',
+  skeomorphicDark: '--skeomorphic-dark',
+  skeomorphicInnerDark: '--skeomorphic-inner-dark',
 }
