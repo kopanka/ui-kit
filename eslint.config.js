@@ -11,6 +11,7 @@ import prettier from 'eslint-config-prettier'
 export default [
   {
     files: ['**/*.js', '**/*.jsx', '**/*.ts', '**/*.tsx'],
+    ignores: ['.storybook/**/*'],
     plugins: {
       import: imprt,
       react,
