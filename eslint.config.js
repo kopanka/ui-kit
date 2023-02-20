@@ -112,6 +112,8 @@ export default [
       ...ts.configs['eslint-recommended'].rules,
       ...ts.configs['recommended'].rules,
       'ts/consistent-type-imports': 'warn',
+      'no-duplicate-imports': 'off',
+      'import/no-duplicates': ['error'],
     },
   },
   {

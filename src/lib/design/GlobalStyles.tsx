@@ -129,16 +129,16 @@ export const GlobalStyles = createGlobalStyle`
 
 		${variables.textBodySmall}: 9px;
 		${variables.textLabelSmall}: 10px;
-		${variables.textSubtitle}: 20px;
-		${variables.text100}: 12px;
-		${variables.text200}: 14px;
-		${variables.text300}: 16px;
-		${variables.text400}: 18px;
-		${variables.text500}: 24px;
-		${variables.text600}: 36px;
-		${variables.text700}: 40px;
-		${variables.text800}: 56px;
-		${variables.text900}: 72px;
+		${variables.textBodyMedium}: 12px;
+		${variables.textLabelMedium}: 14px;
+		${variables.textBodyLarge}: 16px;
+		${variables.textLabelLarge}: 20px;
+		${variables.heading100}: 18px;
+		${variables.heading200}: 24px;
+		${variables.heading300}: 36px;
+		${variables.heading400}: 40px;
+		${variables.heading500}: 56px;
+		${variables.heading600}: 72px;
 
 		${variables.fontRegular}: 400;
 		${variables.fontMedium}: 500;
