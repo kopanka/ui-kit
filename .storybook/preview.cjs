@@ -8,6 +8,19 @@ export const parameters = {
       date: /Date$/,
     },
   },
+	backgrounds: {
+		default: 'light',
+		values: [
+			{
+				name: 'light',
+				value: '#fff',
+			},
+			{
+				name: 'dark',
+				value: '#2E2E30',
+			}
+		]
+	}
 }
 
 export const decorators = [withTheme]
