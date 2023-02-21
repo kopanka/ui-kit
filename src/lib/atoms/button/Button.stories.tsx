@@ -1,11 +1,10 @@
 import type { ComponentMeta, ComponentStory } from '@storybook/react'
 import React from 'react'
 
-import { Button } from './Button'
+import { Button as UiButton } from './Button'
 
 export default {
   title: 'Atoms/Button',
-  component: Button,
   parameters: {
     backgrounds: {
       default: 'dark',
@@ -13,68 +12,57 @@ export default {
   },
 } as ComponentMeta<typeof Button>
 
-export const Primary = () => (
-  <div>
-    <Button size="large">Large</Button>
-    <Button size="medium">Medium</Button>
-    <Button size="small">Small</Button>
-    <Button size="tiny">Tiny</Button>
-  </div>
-)
-
-export const Outline = () => {
+export const Button = () => {
   return (
-    <div>
-      <Button appearance="outline" size="large">
-        Large
-      </Button>
-      <Button appearance="outline" size="medium">
-        Medium
-      </Button>
-      <Button appearance="outline" size="small">
-        Small
-      </Button>
-      <Button appearance="outline" size="tiny">
-        Tiny
-      </Button>
-    </div>
-  )
-}
-
-export const Round = () => {
-  return (
-    <div>
-      <Button variant="round" size="large">
-        Large
-      </Button>
-      <Button variant="round" size="medium">
-        Medium
-      </Button>
-      <Button variant="round" size="small">
-        Small
-      </Button>
-      <Button variant="round" size="tiny">
-        Tiny
-      </Button>
-    </div>
-  )
-}
-
-export const Skeo = () => {
-  return (
-    <div>
-      <Button design="skeo" size="large">
-        Large
-      </Button>
-      <Button design="skeo" size="medium">
-        Medium
-      </Button>
-      <Button design="skeo" size="small">
-        Small
-      </Button>
-      <Button design="skeo" size="tiny">
-        Tiny
-      </Button>
+    <div css={{ display: 'flex', flexDirection: 'column', gap: 25 }}>
+      <div>
+        <UiButton size="large">Large</UiButton>
+        <UiButton size="medium">Medium</UiButton>
+        <UiButton size="small">Small</UiButton>
+        <UiButton size="tiny">Tiny</UiButton>
+      </div>
+      <div>
+        <UiButton appearance="outline" size="large">
+          Large
+        </UiButton>
+        <UiButton appearance="outline" size="medium">
+          Medium
+        </UiButton>
+        <UiButton appearance="outline" size="small">
+          Small
+        </UiButton>
+        <UiButton appearance="outline" size="tiny">
+          Tiny
+        </UiButton>
+      </div>
+      <div>
+        <UiButton variant="round" size="large">
+          Large
+        </UiButton>
+        <UiButton variant="round" size="medium">
+          Medium
+        </UiButton>
+        <UiButton variant="round" size="small">
+          Small
+        </UiButton>
+        <UiButton variant="round" size="tiny">
+          Tiny
+        </UiButton>
+      </div>
+      <div>
+        <UiButton design="skeo" size="large">
+          Large
+        </UiButton>
+        <UiButton design="skeo" size="medium">
+          Medium
+        </UiButton>
+        <UiButton design="skeo" size="small">
+          Small
+        </UiButton>
+        <UiButton design="skeo" size="tiny">
+          Tiny
+        </UiButton>
+      </div>
     </div>
   )
 }
