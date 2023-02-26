@@ -34,11 +34,23 @@ const NativeCheckbox = styled.input.attrs({ type: 'checkbox' })`
   &:checked + ${Box} {
     transform: translateX(${em(24)}) translateY(-50%);
     background-color: ${theme.colors.gray600};
+
+    ${Mark} {
+      color: ${theme.colors.primary500};
+      opacity: 1;
+    }
   }
 
-  &:checked + ${Box} ${Mark} {
-    color: ${theme.colors.primary500};
-    opacity: 1;
+  &:disabled + ${Box} {
+    background-color: ${theme.colors.dark300};
+  }
+
+  &:disabled:checked + ${Box} {
+    background-color: ${theme.colors.gray600};
+
+    ${Mark} {
+      color: ${theme.colors.black100};
+    }
   }
 `
 
@@ -81,6 +93,13 @@ const Container = styled.label`
     ${NativeCheckbox}:checked + ${Box} ${Mark} {
       color: ${theme.colors.black100};
     }
+  }
+
+  &:has(${NativeCheckbox}:disabled) {
+    border-color: ${theme.colors.gray500};
+    background-color: ${theme.colors.dark200};
+    cursor: not-allowed;
+    outline: none;
   }
 `
 
