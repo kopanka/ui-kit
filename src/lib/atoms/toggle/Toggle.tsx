@@ -51,7 +51,7 @@ const Container = styled.label`
   box-sizing: border-box;
   background-color: transparent;
   ${border(em(1), 'solid', theme.colors.gray500)};
-  ${transitions(['border-color', 'background-color'], '0.2s ease-in-out')};
+  ${transitions(['border-color', 'background-color', 'outline'], '0.2s ease-in-out')};
 
   &:has(${NativeCheckbox}:checked) {
     border-color: ${theme.colors.primary500};
@@ -61,6 +61,7 @@ const Container = styled.label`
   &:hover {
     border-color: ${theme.colors.primary500};
     background-color: ${theme.colors.primary200};
+    outline: ${em(6)} solid ${theme.colors.dark300};
 
     ${Box} {
       background-color: ${theme.colors.dark300};
