@@ -56,6 +56,7 @@ const Container = styled.label`
   &:has(${NativeCheckbox}:checked) {
     border-color: ${theme.colors.primary500};
     background-color: ${theme.colors.primary500};
+    outline: none;
   }
 
   &:hover {
