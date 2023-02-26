@@ -1,4 +1,4 @@
-import type { ComponentMeta, ComponentStory } from '@storybook/react'
+import type { ComponentMeta } from '@storybook/react'
 import React from 'react'
 
 import { Button as UiButton } from './Button'
