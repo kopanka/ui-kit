@@ -53,10 +53,20 @@ const Container = styled.label`
   ${border(em(1), 'solid', theme.colors.gray500)};
   ${transitions(['border-color', 'background-color', 'outline'], '0.2s ease-in-out')};
 
+  &:has(${NativeCheckbox}:focus-visible) {
+    border-color: ${theme.colors.gray600};
+    background-color: ${theme.colors.gray500};
+    outline: ${em(6)} solid ${theme.colors.dark300};
+  }
+
   &:has(${NativeCheckbox}:checked) {
     border-color: ${theme.colors.primary500};
     background-color: ${theme.colors.primary500};
     outline: none;
+
+    &:has(${NativeCheckbox}:focus-visible) {
+      outline: ${em(6)} solid ${theme.colors.dark300};
+    }
   }
 
   &:hover {
