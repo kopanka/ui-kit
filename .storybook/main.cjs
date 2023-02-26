@@ -1,4 +1,5 @@
 const react = require('@vitejs/plugin-react');
+const svgr = require('vite-plugin-svgr');
 
 module.exports = {
   "stories": [
@@ -28,6 +29,7 @@ module.exports = {
 				},
 			}),
 		);
+		config.plugins.push(svgr());
 
 		return config;
 	},

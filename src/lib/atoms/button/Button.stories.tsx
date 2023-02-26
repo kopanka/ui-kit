@@ -5,11 +5,6 @@ import { Button as UiButton } from './Button'
 
 export default {
   title: 'Atoms/Button',
-  parameters: {
-    backgrounds: {
-      default: 'dark',
-    },
-  },
 } as ComponentMeta<typeof Button>
 
 export const Button = () => {

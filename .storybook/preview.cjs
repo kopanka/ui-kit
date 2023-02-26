@@ -9,7 +9,7 @@ export const parameters = {
     },
   },
 	backgrounds: {
-		default: 'light',
+		default: 'dark',
 		values: [
 			{
 				name: 'light',
@@ -20,7 +20,7 @@ export const parameters = {
 				value: '#2E2E30',
 			}
 		]
-	}
+	},
 }
 
 export const decorators = [withTheme]
