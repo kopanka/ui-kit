@@ -57,6 +57,19 @@ const Container = styled.label`
     border-color: ${theme.colors.primary500};
     background-color: ${theme.colors.primary500};
   }
+
+  &:hover {
+    border-color: ${theme.colors.primary500};
+    background-color: ${theme.colors.primary200};
+
+    ${Box} {
+      background-color: ${theme.colors.dark300};
+    }
+
+    ${NativeCheckbox}:checked + ${Box} ${Mark} {
+      color: ${theme.colors.black100};
+    }
+  }
 `
 
 export const Toggle = () => {
