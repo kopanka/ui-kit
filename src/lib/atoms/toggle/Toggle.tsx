@@ -5,6 +5,8 @@ import styled from 'styled-components'
 import { ReactComponent as MarkIcon } from '../../icons/mark.svg'
 import { theme } from '../../design'
 
+type ToggleProps = Omit<React.InputHTMLAttributes<HTMLInputElement>, 'type'>
+
 const Box = styled.div`
   width: ${em(28)};
   height: ${em(28)};
@@ -103,10 +105,10 @@ const Container = styled.label`
   }
 `
 
-export const Toggle = () => {
+export const Toggle: React.FC<ToggleProps> = props => {
   return (
     <Container>
-      <NativeCheckbox />
+      <NativeCheckbox {...props} />
       <Box>
         <Mark />
       </Box>
